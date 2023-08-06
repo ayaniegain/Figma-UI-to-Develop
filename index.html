@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="whole-body">
+      <div class="header-part">
+       <div class="line-one"><hr></div>
+       <div class="text">Bundle & Save</div>
+       <div class="line-two"><hr></div>
+      </div>
+
+      <div class="one-pair" id="one">
+        <input type="radio" name="toggle-radio" id="pair-one" />
+        <label for="pair-one"></label>
+        <section class="pricing-one">
+          <p>1 Pair</p>
+          <p>DKK 195.00</p>
+        </section>
+        <p>50% OFF</p>
+      </div>
+      <div class="two-pair" id="two">
+        <section  class="second-pair-price">
+          <input type="radio" name="toggle-radio" id="pair-two" />
+        <label for="pair-two"></label>
+          <div class="second-pair-first-part">
+            <p>2 Pair</p>
+            <p>DKK 345.00</p>
+          </div>
+          <span class="cross-text">DKK 195.00</span>
+          <div class="second-pair-second-part">
+            <p>Most Popular</p>
+            <p>40% OFF</p>
+          </div>
+        </section>
+        <section class="second-pair-second-part" >
+            <div class="second-pair-text">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+          <div class="first-row">
+            <span>#1</span>
+            <select class="classic"  id="">
+              <option value="1">S</option>
+              <option value="1">P</option>
+              <option value="1">F</option>
+            </select>
+            <select class="classic"name="Colour" id="">
+              <option value="1">Colour</option>
+              <option value="1">Min</option>
+              <option value="1">Max</option>
+            </select>
+        </div> 
+        <div class="second-row">
+            <span>#1</span>
+            <select class="classic"name="S" id="">
+                <option value="1">S</option>
+                <option value="1">p</option>
+                <option value="1">F</option>
+            </select>
+            <select class="classic"name="Colour" id="">
+                <option value="1">Colour</option>
+                <option value="1">Min</option>
+                <option value="1">Max</option>
+            </select>
+          </div>
+        </section>
+      </div>
+
+        <!-- 3rd pair  -->
+        <div class="third-pair" id="three">
+            <input type="radio" name="toggle-radio" id="pair-three" />
+            <label for="pair-three"></label>
+          <section class="pricing-third">
+            <p>3 Pair</p>
+            <p>DKK 528.00</p>
+          </section>
+          <p>60% OFF</p>
+        </div>
+      <!-- shiping section -->
+      <div class="shiping-sec">
+        <p>Free 2 Day Shipping</p>
+        <p>Total : <span> DKK 360.00</span></p>
+      </div>
+      <button>+ Add to Cart</button>
+      <span class="add-to-cart">&copy Powered by Pumper</span>
+
+      <script src="./script.js"></script>
+    </section>
+  </body>
+</html>
