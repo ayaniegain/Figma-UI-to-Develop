@@ -9,7 +9,7 @@ threeRadio.addEventListener("click", () => ChangeColorthree("#f4fbf9", "0.9px so
 
 function ChangeColorone(color,border) {
 
-    // Set the background color of the body element
+    // Set the background color of the tag element
     document.getElementById('one').style.backgroundColor = color;
     document.getElementById('one').style.border = border;
     document.getElementById('two').style.backgroundColor ="";
@@ -18,7 +18,7 @@ function ChangeColorone(color,border) {
     document.getElementById('three').style.border = "";
 }
 function ChangeColortwo(color,border) {
-    // Set the background color of the body element
+    // Set the background color of the tag element
     document.getElementById('two').style.backgroundColor =color;
     document.getElementById('two').style.border = border;
     document.getElementById('one').style.backgroundColor = "";
@@ -27,7 +27,7 @@ function ChangeColortwo(color,border) {
     document.getElementById('three').style.border = "";
 }
 function ChangeColorthree(color,border) {
-    // Set the background color of the body element
+    // Set the background color of the tag element
     document.getElementById('three').style.backgroundColor = color;
     document.getElementById('three').style.border = border;
     document.getElementById('one').style.backgroundColor = "";
